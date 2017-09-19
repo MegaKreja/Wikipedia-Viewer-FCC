@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  font-family: 'Oswald', sans-serif;
+}
+.logo img {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+.input {
+  padding-top: 30px;
+  text-align: center;
+}
+.input input {
+  padding:5px; 
+  border:2px solid #ccc; 
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+.input input:focus {
+  border-color:#333;
+}
+.input #btnSearch {
+  padding:5px 15px; 
+  background: #2733d2; 
+  border:0 none;
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: white;
+}
+.input #btnRandom {
+  padding:5px 15px; 
+  background: grey; 
+  border:0 none;
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: white;
+}
+#results {
+  text-align: center;
+  padding-top: 20px;
+  list-style: none;
+  font-size: 22px;
+}
+#results a {
+  text-decoration: none;
+  color: black;
+}
+#results a:visited {
+  color: black;
+}
+#results a:hover {
+  color: grey;
+}
